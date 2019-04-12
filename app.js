@@ -23,7 +23,7 @@ const users = require('./routes/users');
 //Passport Config
 require('./config/passport')(passport);
 
-//dDB Config
+//DB Config
 const db = require('./config/database');
 
 //Map global promise - get rid of warnings
