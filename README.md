@@ -1,7 +1,7 @@
 # videonotes
 A simple nodeJS CRUD application to jot down your YouTube video ideas with passport authentication.
 to get started with this application, clone this repository using the following command: 
-  -- git clone https://github.com/deb1398/videonotes.git 
+-- git clone https://github.com/deb1398/videonotes.git 
 --
 Run the above command moving the local directory to which you want to download it.
 
