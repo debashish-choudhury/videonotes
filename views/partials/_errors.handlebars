@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{#if error}}
     <div class="alert alert-danger">{{error}}</div>
 {{/if}}
@@ -7,4 +8,15 @@
     <div class="alert alert-danger">{{text}}</div>
 {{else}}
 
+=======
+{{#if error}}
+    <div class="alert alert-danger">{{error}}</div>
+{{/if}}
+
+
+{{#each errors}}
+    <div class="alert alert-danger">{{text}}</div>
+{{else}}
+
+>>>>>>> 2b8e8f13f7744e5aeab940aaaab4fa0a2fb4462c
 {{/each}}
