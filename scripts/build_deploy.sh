@@ -1,4 +1,5 @@
 #!/bin/bash
-sudo apt-get install npm
-sudo npm install
-sudo npm start
+apt-get update -y
+apt-get install npm -y
+npm install
+npm start
