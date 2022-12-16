@@ -28,6 +28,7 @@ const db = require('./config/database');
 
 //Map global promise - get rid of warnings
 mongoose.Promise = global.Promise;
+
 //connect to mongoose
 mongoose.connect(db.mongoURI, { useNewUrlParser: true })
     .then(() => console.log('MongoDB Connected...'))
